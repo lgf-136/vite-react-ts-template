@@ -3,7 +3,8 @@
     "target": "ESNext",
     "useDefineForClassFields": true,
     "lib": ["DOM", "DOM.Iterable", "ESNext"],
-    "allowJs": false,
+    "allowJs": true,
+    "checkJs": true,
     "skipLibCheck": true,
     "esModuleInterop": false,
     "allowSyntheticDefaultImports": true,
@@ -17,5 +18,6 @@
     "jsx": "react-jsx"
   },
   "include": ["src"],
+  // Bug: Referenced project 'c:/Users/13662/vite-react-ts-template/tsconfig.node.json' may not disable emit.   -> https://github.com/microsoft/TypeScript/issues/49844
   "references": [{ "path": "./tsconfig.node.json" }]
 }
