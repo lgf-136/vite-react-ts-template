@@ -2,11 +2,12 @@
   "name": "vite-react-typescript-starter",
   "private": true,
   "version": "0.0.0",
-  "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "cz": "npx git-cz",
+    "commit": "npx git-cz"
   },
   "config": {
     "commitizen": {
