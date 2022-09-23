@@ -1,5 +1,7 @@
 {
   "compilerOptions": {
+    "baseUrl": ".",
+    // "target": "es5",
     "target": "ESNext",
     "useDefineForClassFields": true,
     "lib": ["DOM", "DOM.Iterable", "ESNext"],
@@ -15,9 +17,13 @@
     "resolveJsonModule": true,
     "isolatedModules": true,
     "noEmit": true,
+    // "jsx": "preserve", // vue
     "jsx": "react-jsx"
   },
-  "include": ["src"],
+  "paths": {
+    "@/*": ["src/*"]
+  },
+  "include": ["src", "test", "tests"],
   // Bug: Referenced project 'c:/Users/13662/vite-react-ts-template/tsconfig.node.json' may not disable emit.   -> https://github.com/microsoft/TypeScript/issues/49844
   "references": [{ "path": "./tsconfig.node.json" }]
 }
