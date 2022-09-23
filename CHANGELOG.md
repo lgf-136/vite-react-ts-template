@@ -4,15 +4,13 @@ All notable changes to this project will be documented in this file. See [standa
 
 ### [0.0.2](https://github.com/lgf-136/vite-react-ts-template/compare/v0.0.1...v0.0.2) (2022-09-23)
 
-
 ### Features
 
-* 🎸 add standard-version for auto add changelog ([1e86e16](https://github.com/lgf-136/vite-react-ts-template/commit/1e86e166cbabeea42935e98e5770d5f047fbe691))
-
+- 🎸 add standard-version for auto add changelog ([1e86e16](https://github.com/lgf-136/vite-react-ts-template/commit/1e86e166cbabeea42935e98e5770d5f047fbe691))
 
 ### Bug Fixes
 
-* 🐛 fix bug on tsconfig ([5c7ff54](https://github.com/lgf-136/vite-react-ts-template/commit/5c7ff54359e907cfc6eed0924a05ff2dd4cd82a1))
+- 🐛 fix bug on tsconfig ([5c7ff54](https://github.com/lgf-136/vite-react-ts-template/commit/5c7ff54359e907cfc6eed0924a05ff2dd4cd82a1))
 
 ### 0.0.1 (2022-09-23)
 
